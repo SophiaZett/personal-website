@@ -12,7 +12,12 @@ export default createGlobalStyle`
   --primary-color: #fffcf4;
   --secondary-color: #5532c8;
   --olive-color: olive;
-};
+}
+`;
+
+export const Heading = styled.h1`
+  color: olive;
+`;
 
 
 /* .header__heading {
@@ -30,4 +35,5 @@ export default createGlobalStyle`
     height: 80px;
     box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
     padding: 10px;
-  } */
+  }; */
+  
