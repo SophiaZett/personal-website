@@ -1,5 +1,11 @@
-import { Heading } from "../styles"
+import {Heading } from "../styles"
 
 export default function Homepage(){
-return <Heading>Hello world</Heading>
+return (
+<>
+<nav>
+<Heading>My Homepage</Heading>
+</nav>
+</>
+)
 }
